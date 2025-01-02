@@ -1,14 +1,17 @@
 [tool.poetry]
-name = "module-template"
+name = "financial_data_analyst"
 version = "0.1.0"
 description = ""
-authors = ["Richard Blythman <richardblythman@gmail.com>"]
+authors = ["Dean <dean@aidevmode.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = ">=3.10,<=3.13"
 naptha-sdk = {git = "https://github.com/NapthaAI/naptha-sdk.git"}
 python-dotenv = "^1.0.1"
+numpy = "1.26.4"
+yfinance = "^0.2.51"
+langchain-openai = "^0.2.14"
 
 [build-system]
 requires = ["poetry-core"]

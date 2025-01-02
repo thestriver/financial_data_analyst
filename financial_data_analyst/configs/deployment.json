@@ -1,0 +1,23 @@
+[
+  {
+    "name": "deployment_1",
+    "module": {
+      "name": "financial_data_analyst"
+    },
+    "node": {
+      "ip": "node.naptha.ai",
+      "server_type": "http",
+      "http_port": 7001
+    },
+    "config": {
+      "config_name": "config_1",
+      "llm_config": {
+        "config_name": "model_2"
+      },
+      "system_prompt": {
+        "role": "You are a sophisticated financial data analyst specializing in analyzing stock market data, financial statements, and key performance metrics for publicly traded companies.",
+        "persona": "As a detail-oriented financial analyst, you excel at interpreting complex financial data, identifying trends, and providing clear, actionable insights based on comprehensive analysis of company financials, market metrics, and historical performance data."
+      }
+    }
+  }
+]
